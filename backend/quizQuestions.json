@@ -1,0 +1,976 @@
+[
+    {
+        "question": "What is the use of the useState hook in React?",
+        "options": [
+            "Manage state in a function component",
+            "Handle side effects",
+            "Connect to a Redux store",
+            "Perform data fetching"
+        ],
+        "answer": "Manage state in a function component",
+        "difficulty": "easy"
+    },
+    {
+        "question": "How do you prevent a form from being submitted in JavaScript?",
+        "options": [
+            "event.preventDefault()",
+            "event.stopPropagation()",
+            "event.stopImmediatePropagation()",
+            "event.pausePropagation()"
+        ],
+        "answer": "event.preventDefault()",
+        "difficulty": "easy"
+    },
+    {
+        "question": "How do you pass a variable 'myVar' from a parent component to a child component in React?",
+        "options": [
+            "Using state",
+            "Using props",
+            "Using context",
+            "Using hooks"
+        ],
+        "answer": "Using props",
+        "difficulty": "easy"
+    },
+    {
+        "question": "How do you create a component in React?",
+        "options": [
+            "React.createComponent()",
+            "new React.Component()",
+            "class MyComponent extends React.Component {}",
+            "function MyComponent() {}"
+        ],
+        "answer": "class MyComponent extends React.Component {}",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the virtual DOM in React?",
+        "options": [
+            "A copy of the real DOM",
+            "The real browser DOM",
+            "A DOM manipulation library",
+            "A server-side rendering engine"
+        ],
+        "answer": "A copy of the real DOM",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What does 'npm' stand for in Node.js?",
+        "options": [
+            "Node Package Manager",
+            "Network Protocol Module",
+            "New Programming Module",
+            "Node Protocol Manager"
+        ],
+        "answer": "Node Package Manager",
+        "difficulty": "easy"
+    },
+    {
+        "question": "How do you declare a constant in JavaScript?",
+        "options": [
+            "var myConst = value",
+            "const myConst = value",
+            "let myConst = value",
+            "def myConst = value"
+        ],
+        "answer": "const myConst = value",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is 'props' short for in React?",
+        "options": [
+            "Properties",
+            "Proposals",
+            "Propellers",
+            "Proportions"
+        ],
+        "answer": "Properties",
+        "difficulty": "easy"
+    },
+    {
+        "question": "How can you update the state of a component in React?",
+        "options": [
+            "this.setState()",
+            "this.state = {}",
+            "React.updateState()",
+            "State.modify()"
+        ],
+        "answer": "this.setState()",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is JSX in React?",
+        "options": [
+            "A language extension that looks similar to XML",
+            "JavaScript function",
+            "API method",
+            "JavaScript extension for XML"
+        ],
+        "answer": "A language extension that looks similar to XML",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which method in a React component should you override to stop the component from updating?",
+        "options": [
+            "shouldComponentUpdate",
+            "componentDidUpdate",
+            "componentWillUpdate",
+            "componentWillReceiveProps"
+        ],
+        "answer": "shouldComponentUpdate",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What method allows you to directly modify the state in React without re-rendering?",
+        "options": [
+            "this.setState()",
+            "this.forceUpdate()",
+            "this.stateUpdate()",
+            "this.modifyState()"
+        ],
+        "answer": "this.forceUpdate()",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What feature in React 16+ allows for returning multiple elements from a component's render method?",
+        "options": [
+            "React.fragments",
+            "React.children",
+            "React.multiple",
+            "React.array"
+        ],
+        "answer": "React.fragments",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which hook in React allows you to use context features in a functional component?",
+        "options": [
+            "useReducer",
+            "useEffect",
+            "useContext",
+            "useProvider"
+        ],
+        "answer": "useContext",
+        "difficulty": "hard"
+    },
+
+    {
+        "question": "What is the use of the useState hook in React?",
+        "options": ["Manage state in a function component", "Handle side effects", "Connect to a Redux store", "Perform data fetching"],
+        "answer": "Manage state in a function component",
+        "difficulty": "easy"
+    },
+    {
+        "question": "How do you prevent a form from being submitted in JavaScript?",
+        "options": ["event.preventDefault()", "event.stopPropagation()", "event.stopImmediatePropagation()", "event.pausePropagation()"],
+        "answer": "event.preventDefault()",
+        "difficulty": "easy"
+    },
+    {
+        "question": "How do you pass a variable 'myVar' from a parent component to a child component in React?",
+        "options": ["Using state", "Using props", "Using context", "Using hooks"],
+        "answer": "Using props",
+        "difficulty": "easy"
+    },
+    {
+        "question": "How do you create a component in React?",
+        "options": ["React.createComponent()", "new React.Component()", "class MyComponent extends React.Component {}", "function MyComponent() {}"],
+        "answer": "class MyComponent extends React.Component {}",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the virtual DOM in React?",
+        "options": ["A copy of the real DOM", "The real browser DOM", "A DOM manipulation library", "A server-side rendering engine"],
+        "answer": "A copy of the real DOM",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What does 'npm' stand for in Node.js?",
+        "options": ["Node Package Manager", "Network Protocol Module", "New Programming Module", "Node Protocol Manager"],
+        "answer": "Node Package Manager",
+        "difficulty": "easy"
+    },
+    {
+        "question": "How do you declare a constant in JavaScript?",
+        "options": ["var myConst = value", "const myConst = value", "let myConst = value", "def myConst = value"],
+        "answer": "const myConst = value",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is 'props' short for in React?",
+        "options": ["Properties", "Proposals", "Propellers", "Proportions"],
+        "answer": "Properties",
+        "difficulty": "easy"
+    },
+    {
+        "question": "How can you update the state of a component in React?",
+        "options": ["this.setState()", "this.state = {}", "React.updateState()", "State.modify()"],
+        "answer": "this.setState()",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is JSX in React?",
+        "options": ["A language extension that looks similar to XML", "JavaScript function", "API method", "JavaScript extension for XML"],
+        "answer": "A language extension that looks similar to XML",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which method in a React component should you override to stop the component from updating?",
+        "options": ["shouldComponentUpdate", "componentDidUpdate", "componentWillUpdate", "componentWillReceiveProps"],
+        "answer": "shouldComponentUpdate",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What method allows you to directly modify the state in React without re-rendering?",
+        "options": ["this.setState()", "this.forceUpdate()", "this.stateUpdate()", "this.modifyState()"],
+        "answer": "this.forceUpdate()",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What feature in React 16+ allows for returning multiple elements from a component's render method?",
+        "options": ["React.fragments", "React.children", "React.multiple", "React.array"],
+        "answer": "React.fragments",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which hook in React allows you to use context features in a functional component?",
+        "options": ["useReducer", "useEffect", "useContext", "useProvider"],
+        "answer": "useContext",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the default port number for a web server in Node.js when using the Express framework?",
+        "options": ["3000", "8080", "5000", "80"],
+        "answer": "3000",
+        "difficulty": "medium"
+    },
+    {
+        "question": "In React, which method is used for creating higher order components?",
+        "options": ["React.createClass", "React.createRef", "React.createElement", "React.memo"],
+        "answer": "React.memo",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What does the 'useReducer' hook do in a React functional component?",
+        "options": ["Handles state transitions", "Executes functions in sequence", "Handles API calls", "Renders components conditionally"],
+        "answer": "Handles state transitions",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the purpose of React Router?",
+        "options": ["Connecting to databases", "Managing state", "Routing between different UI components", "Linking to external websites"],
+        "answer": "Routing between different UI components",
+        "difficulty": "medium"
+    },
+    {
+        "question": "How can you improve the performance of a React application?",
+        "options": ["Using useMemo and useCallback", "Increasing the number of components", "Frequent use of state", "All of the above"],
+        "answer": "Using useMemo and useCallback",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the significance of keys in React lists?",
+        "options": ["They help in optimizing the rendering process", "They serve as a unique identifier for database operations", "They encrypt data", "They create more components"],
+        "answer": "They help in optimizing the rendering process",
+        "difficulty": "hard"
+    },
+    {
+        "question": "In React, what is the function of a PureComponent?",
+        "options": ["To prevent re-renders through shallow comparison", "To manage state more effectively", "To integrate with third-party libraries", "To handle deep linking"],
+        "answer": "To prevent re-renders through shallow comparison",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the concept of 'lifting state up' in React?",
+        "options": ["Storing all state in the global environment", "Sharing state between components by moving it up to their common ancestor", "Increasing the size of the state object", "Using cloud storage for state"],
+        "answer": "Sharing state between components by moving it up to their common ancestor",
+        "difficulty": "hard"
+    },
+    {
+        "question": "How do you handle asynchronous data fetching in React?",
+        "options": ["useAsync hook", "useEffect hook", "useFetch hook", "useData hook"],
+        "answer": "useEffect hook",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is a Fragment in React?",
+        "options": ["A method to send data to APIs", "A tool for merging components", "A component that can return multiple elements without adding extra nodes to the DOM", "A higher-order component"],
+        "answer": "A component that can return multiple elements without adding extra nodes to the DOM",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the use of the useState hook in React?",
+        "options": [
+            "Manage state in a function component",
+            "Handle side effects",
+            "Connect to a Redux store",
+            "Perform data fetching"
+        ],
+        "answer": "Manage state in a function component",
+        "difficulty": "easy"
+    },
+    {
+        "question": "How do you prevent a form from being submitted in JavaScript?",
+        "options": [
+            "event.preventDefault()",
+            "event.stopPropagation()",
+            "event.stopImmediatePropagation()",
+            "event.pausePropagation()"
+        ],
+        "answer": "event.preventDefault()",
+        "difficulty": "easy"
+    },
+    {
+        "question": "How do you pass a variable 'myVar' from a parent component to a child component in React?",
+        "options": [
+            "Using state",
+            "Using props",
+            "Using context",
+            "Using hooks"
+        ],
+        "answer": "Using props",
+        "difficulty": "easy"
+    },
+    {
+        "question": "How do you create a component in React?",
+        "options": [
+            "React.createComponent()",
+            "new React.Component()",
+            "class MyComponent extends React.Component {}",
+            "function MyComponent() {}"
+        ],
+        "answer": "class MyComponent extends React.Component {}",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the virtual DOM in React?",
+        "options": [
+            "A copy of the real DOM",
+            "The real browser DOM",
+            "A DOM manipulation library",
+            "A server-side rendering engine"
+        ],
+        "answer": "A copy of the real DOM",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What does 'npm' stand for in Node.js?",
+        "options": [
+            "Node Package Manager",
+            "Network Protocol Module",
+            "New Programming Module",
+            "Node Protocol Manager"
+        ],
+        "answer": "Node Package Manager",
+        "difficulty": "easy"
+    },
+    {
+        "question": "How do you declare a constant in JavaScript?",
+        "options": [
+            "var myConst = value",
+            "const myConst = value",
+            "let myConst = value",
+            "def myConst = value"
+        ],
+        "answer": "const myConst = value",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is 'props' short for in React?",
+        "options": [
+            "Properties",
+            "Proposals",
+            "Propellers",
+            "Proportions"
+        ],
+        "answer": "Properties",
+        "difficulty": "easy"
+    },
+    {
+        "question": "How can you update the state of a component in React?",
+        "options": [
+            "this.setState()",
+            "this.state = {}",
+            "React.updateState()",
+            "State.modify()"
+        ],
+        "answer": "this.setState()",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is JSX in React?",
+        "options": [
+            "A language extension that looks similar to XML",
+            "JavaScript function",
+            "API method",
+            "JavaScript extension for XML"
+        ],
+        "answer": "A language extension that looks similar to XML",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which method in a React component should you override to stop the component from updating?",
+        "options": [
+            "shouldComponentUpdate",
+            "componentDidUpdate",
+            "componentWillUpdate",
+            "componentWillReceiveProps"
+        ],
+        "answer": "shouldComponentUpdate",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What method allows you to directly modify the state in React without re-rendering?",
+        "options": [
+            "this.setState()",
+            "this.forceUpdate()",
+            "this.stateUpdate()",
+            "this.modifyState()"
+        ],
+        "answer": "this.forceUpdate()",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What feature in React 16+ allows for returning multiple elements from a component's render method?",
+        "options": [
+            "React.fragments",
+            "React.children",
+            "React.multiple",
+            "React.array"
+        ],
+        "answer": "React.fragments",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which hook in React allows you to use context features in a functional component?",
+        "options": [
+            "useReducer",
+            "useEffect",
+            "useContext",
+            "useProvider"
+        ],
+        "answer": "useContext",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What does `React.memo` do?",
+        "options": [
+            "Caches a component to prevent unnecessary re-renders",
+            "Memoizes a function",
+            "Creates a reactive component",
+            "None of the above"
+        ],
+        "answer": "Caches a component to prevent unnecessary re-renders",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which method in React can be used to fetch data initially when a component mounts?",
+        "options": [
+            "componentDidMount()",
+            "componentWillMount()",
+            "componentDidUpdate()",
+            "componentWillUnmount()"
+        ],
+        "answer": "componentDidMount()",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the use of the `useCallback` hook in React?",
+        "options": [
+            "Returns a memoized callback function",
+            "Invokes a function after state changes",
+            "A hook that fetches data",
+            "None of the above"
+        ],
+        "answer": "Returns a memoized callback function",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the purpose of the `useRef` hook in React?",
+        "options": [
+            "To manage component focus",
+            "To keep a mutable reference to the DOM element",
+            "To store the previous state value",
+            "Both A and B"
+        ],
+        "answer": "Both A and B",
+        "difficulty": "hard"
+    },
+    {
+        "question": "How does React achieve efficient updates in the DOM?",
+        "options": [
+            "Using the virtual DOM to minimize direct DOM manipulation",
+            "Direct manipulation of the DOM",
+            "Using external libraries for DOM updates",
+            "Using inline styles"
+        ],
+        "answer": "Using the virtual DOM to minimize direct DOM manipulation",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is Context API used for in React?",
+        "options": [
+            "Managing state locally within a component",
+            "Passing data through component tree without props drilling",
+            "Storing data externally",
+            "Manipulating DOM directly"
+        ],
+        "answer": "Passing data through component tree without props drilling",
+        "difficulty": "hard"
+    },
+    {
+        "question": "How can server-side rendering (SSR) be achieved in a React application?",
+        "options": [
+            "Using React.DOM",
+            "Using ReactDOMServer",
+            "Using ReactSSR",
+            "Using Redux"
+        ],
+        "answer": "Using ReactDOMServer",
+        "difficulty": "bonus"
+    },
+    {
+        "question": "What is the difference between `useMemo` and `useCallback` in React?",
+        "options": [
+            "useMemo returns a memoized value, useCallback returns a memoized function",
+            "useMemo calls a function, useCallback returns a value",
+            "There is no difference",
+            "useMemo and useCallback are both used for data fetching"
+        ],
+        "answer": "useMemo returns a memoized value, useCallback returns a memoized function",
+        "difficulty": "bonus"
+    },
+    {
+        "question": "In React, what is a Higher-Order Component (HOC) and how does it differ from a custom hook?",
+        "options": [
+            "HOC is a function that takes a component and returns a new component, a custom hook is a function that can use other hooks",
+            "HOC is a part of the React API, custom hooks are third-party hooks",
+            "HOC is used for state management, custom hooks are not",
+            "There is no difference between the two"
+        ],
+        "answer": "HOC is a function that takes a component and returns a new component, a custom hook is a function that can use other hooks",
+        "difficulty": "bonus"
+    },
+    {
+        "question": "Explain the concept of 'Immutable State' in React and its importance in application performance.",
+        "options": [
+            "Immutable state allows React to quickly detect changes",
+            "It refers to state that cannot be changed",
+            "Immutable state is a type of database state management",
+            "It increases the complexity of the application"
+        ],
+        "answer": "Immutable state allows React to quickly detect changes",
+        "difficulty": "bonus"
+    },
+    {
+        "question": "How does the virtual DOM contribute to React's performance, and what is the reconciliation process?",
+        "options": [
+            "The virtual DOM eliminates the need for a real DOM",
+            "It directly manipulates the DOM, making updates faster",
+            "The virtual DOM compares new and old versions of the DOM to optimize updates",
+            "Reconciliation is the process of syncing props and state"
+        ],
+        "answer": "The virtual DOM compares new and old versions of the DOM to optimize updates",
+        "difficulty": "bonus"
+    },
+
+    {
+        "question": "What is the use of the useState hook in React?",
+        "options": [
+            "Manage state in a function component",
+            "Handle side effects",
+            "Connect to a Redux store",
+            "Perform data fetching"
+        ],
+        "answer": "Manage state in a function component",
+        "difficulty": "easy"
+    },
+    {
+        "question": "How do you prevent a form from being submitted in JavaScript?",
+        "options": [
+            "event.preventDefault()",
+            "event.stopPropagation()",
+            "event.stopImmediatePropagation()",
+            "event.pausePropagation()"
+        ],
+        "answer": "event.preventDefault()",
+        "difficulty": "easy"
+    },
+    {
+        "question": "How do you pass a variable 'myVar' from a parent component to a child component in React?",
+        "options": [
+            "Using state",
+            "Using props",
+            "Using context",
+            "Using hooks"
+        ],
+        "answer": "Using props",
+        "difficulty": "easy"
+    },
+    {
+        "question": "How do you create a component in React?",
+        "options": [
+            "React.createComponent()",
+            "new React.Component()",
+            "class MyComponent extends React.Component {}",
+            "function MyComponent() {}"
+        ],
+        "answer": "class MyComponent extends React.Component {}",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the virtual DOM in React?",
+        "options": [
+            "A copy of the real DOM",
+            "The real browser DOM",
+            "A DOM manipulation library",
+            "A server-side rendering engine"
+        ],
+        "answer": "A copy of the real DOM",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What does 'npm' stand for in Node.js?",
+        "options": [
+            "Node Package Manager",
+            "Network Protocol Module",
+            "New Programming Module",
+            "Node Protocol Manager"
+        ],
+        "answer": "Node Package Manager",
+        "difficulty": "easy"
+    },
+    {
+        "question": "How do you declare a constant in JavaScript?",
+        "options": [
+            "var myConst = value",
+            "const myConst = value",
+            "let myConst = value",
+            "def myConst = value"
+        ],
+        "answer": "const myConst = value",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is 'props' short for in React?",
+        "options": [
+            "Properties",
+            "Proposals",
+            "Propellers",
+            "Proportions"
+        ],
+        "answer": "Properties",
+        "difficulty": "easy"
+    },
+    {
+        "question": "How can you update the state of a component in React?",
+        "options": [
+            "this.setState()",
+            "this.state = {}",
+            "React.updateState()",
+            "State.modify()"
+        ],
+        "answer": "this.setState()",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is JSX in React?",
+        "options": [
+            "A language extension that looks similar to XML",
+            "JavaScript function",
+            "API method",
+            "JavaScript extension for XML"
+        ],
+        "answer": "A language extension that looks similar to XML",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which method in a React component should you override to stop the component from updating?",
+        "options": [
+            "shouldComponentUpdate",
+            "componentDidUpdate",
+            "componentWillUpdate",
+            "componentWillReceiveProps"
+        ],
+        "answer": "shouldComponentUpdate",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What method allows you to directly modify the state in React without re-rendering?",
+        "options": [
+            "this.setState()",
+            "this.forceUpdate()",
+            "this.stateUpdate()",
+            "this.modifyState()"
+        ],
+        "answer": "this.forceUpdate()",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What feature in React 16+ allows for returning multiple elements from a component's render method?",
+        "options": [
+            "React.fragments",
+            "React.children",
+            "React.multiple",
+            "React.array"
+        ],
+        "answer": "React.fragments",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which hook in React allows you to use context features in a functional component?",
+        "options": [
+            "useReducer",
+            "useEffect",
+            "useContext",
+            "useProvider"
+        ],
+        "answer": "useContext",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What does `React.memo` do?",
+        "options": [
+            "Caches a component to prevent unnecessary re-renders",
+            "Memoizes a function",
+            "Creates a reactive component",
+            "None of the above"
+        ],
+        "answer": "Caches a component to prevent unnecessary re-renders",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which method in React can be used to fetch data initially when a component mounts?",
+        "options": [
+            "componentDidMount()",
+            "componentWillMount()",
+            "componentDidUpdate()",
+            "componentWillUnmount()"
+        ],
+        "answer": "componentDidMount()",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the use of the `useCallback` hook in React?",
+        "options": [
+            "Returns a memoized callback function",
+            "Invokes a function after state changes",
+            "A hook that fetches data",
+            "None of the above"
+        ],
+        "answer": "Returns a memoized callback function",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the purpose of the `useRef` hook in React?",
+        "options": [
+            "To manage component focus",
+            "To keep a mutable reference to the DOM element",
+            "To store the previous state value",
+            "Both A and B"
+        ],
+        "answer": "Both A and B",
+        "difficulty": "hard"
+    },
+    {
+        "question": "How does React achieve efficient updates in the DOM?",
+        "options": [
+            "Using the virtual DOM to minimize direct DOM manipulation",
+            "Direct manipulation of the DOM",
+            "Using external libraries for DOM updates",
+            "Using inline styles"
+        ],
+        "answer": "Using the virtual DOM to minimize direct DOM manipulation",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is Context API used for in React?",
+        "options": [
+            "Managing state locally within a component",
+            "Passing data through component tree without props drilling",
+            "Storing data externally",
+            "Manipulating DOM directly"
+        ],
+        "answer": "Passing data through component tree without props drilling",
+        "difficulty": "hard"
+    },
+    {
+        "question": "How can server-side rendering (SSR) be achieved in a React application?",
+        "options": [
+            "Using React.DOM",
+            "Using ReactDOMServer",
+            "Using ReactSSR",
+            "Using Redux"
+        ],
+        "answer": "Using ReactDOMServer",
+        "difficulty": "bonus"
+    },
+    {
+        "question": "What is the difference between `useMemo` and `useCallback` in React?",
+        "options": [
+            "useMemo returns a memoized value, useCallback returns a memoized function",
+            "useMemo calls a function, useCallback returns a value",
+            "There is no difference",
+            "useMemo and useCallback are both used for data fetching"
+        ],
+        "answer": "useMemo returns a memoized value, useCallback returns a memoized function",
+        "difficulty": "bonus"
+    },
+    {
+        "question": "In React, what is a Higher-Order Component (HOC) and how does it differ from a custom hook?",
+        "options": [
+            "HOC is a function that takes a component and returns a new component, a custom hook is a function that can use other hooks",
+            "HOC is a part of the React API, custom hooks are third-party hooks",
+            "HOC is used for state management, custom hooks are not",
+            "There is no difference between the two"
+        ],
+        "answer": "HOC is a function that takes a component and returns a new component, a custom hook is a function that can use other hooks",
+        "difficulty": "bonus"
+    },
+    {
+        "question": "Explain the concept of 'Immutable State' in React and its importance in application performance.",
+        "options": [
+            "Immutable state allows React to quickly detect changes",
+            "It refers to state that cannot be changed",
+            "Immutable state is a type of database state management",
+            "It increases the complexity of the application"
+        ],
+        "answer": "Immutable state allows React to quickly detect changes",
+        "difficulty": "bonus"
+    },
+    {
+        "question": "How does the virtual DOM contribute to React's performance, and what is the reconciliation process?",
+        "options": [
+            "The virtual DOM eliminates the need for a real DOM",
+            "It directly manipulates the DOM, making updates faster",
+            "The virtual DOM compares new and old versions of the DOM to optimize updates",
+            "Reconciliation is the process of syncing props and state"
+        ],
+        "answer": "The virtual DOM compares new and old versions of the DOM to optimize updates",
+        "difficulty": "bonus"
+    },
+
+
+    
+        {
+            "question": "What does `React.memo` do?",
+            "options": [
+                "Caches a component to prevent unnecessary re-renders",
+                "Memoizes a function",
+                "Creates a reactive component",
+                "None of the above"
+            ],
+            "answer": "Caches a component to prevent unnecessary re-renders",
+            "difficulty": "medium"
+        },
+        {
+            "question": "Which method in React can be used to fetch data initially when a component mounts?",
+            "options": [
+                "componentDidMount()",
+                "componentWillMount()",
+                "componentDidUpdate()",
+                "componentWillUnmount()"
+            ],
+            "answer": "componentDidMount()",
+            "difficulty": "medium"
+        },
+        {
+            "question": "What is the use of the `useCallback` hook in React?",
+            "options": [
+                "Returns a memoized callback function",
+                "Invokes a function after state changes",
+                "A hook that fetches data",
+                "None of the above"
+            ],
+            "answer": "Returns a memoized callback function",
+            "difficulty": "medium"
+        },
+        {
+            "question": "What is the purpose of the `useRef` hook in React?",
+            "options": [
+                "To manage component focus",
+                "To keep a mutable reference to the DOM element",
+                "To store the previous state value",
+                "Both A and B"
+            ],
+            "answer": "Both A and B",
+            "difficulty": "hard"
+        },
+        {
+            "question": "How does React achieve efficient updates in the DOM?",
+            "options": [
+                "Using the virtual DOM to minimize direct DOM manipulation",
+                "Direct manipulation of the DOM",
+                "Using external libraries for DOM updates",
+                "Using inline styles"
+            ],
+            "answer": "Using the virtual DOM to minimize direct DOM manipulation",
+            "difficulty": "hard"
+        },
+        {
+            "question": "What is Context API used for in React?",
+            "options": [
+                "Managing state locally within a component",
+                "Passing data through component tree without props drilling",
+                "Storing data externally",
+                "Manipulating DOM directly"
+            ],
+            "answer": "Passing data through component tree without props drilling",
+            "difficulty": "hard"
+        },
+        {
+            "question": "How can server-side rendering (SSR) be achieved in a React application?",
+            "options": [
+                "Using React.DOM",
+                "Using ReactDOMServer",
+                "Using ReactSSR",
+                "Using Redux"
+            ],
+            "answer": "Using ReactDOMServer",
+            "difficulty": "bonus"
+        },
+        {
+            "question": "What is the difference between `useMemo` and `useCallback` in React?",
+            "options": [
+                "useMemo returns a memoized value, useCallback returns a memoized function",
+                "useMemo calls a function, useCallback returns a value",
+                "There is no difference",
+                "useMemo and useCallback are both used for data fetching"
+            ],
+            "answer": "useMemo returns a memoized value, useCallback returns a memoized function",
+            "difficulty": "bonus"
+        },
+        {
+            "question": "In React, what is a Higher-Order Component (HOC) and how does it differ from a custom hook?",
+            "options": [
+                "HOC is a function that takes a component and returns a new component, a custom hook is a function that can use other hooks",
+                "HOC is a part of the React API, custom hooks are third-party hooks",
+                "HOC is used for state management, custom hooks are not",
+                "There is no difference between the two"
+            ],
+            "answer": "HOC is a function that takes a component and returns a new component, a custom hook is a function that can use other hooks",
+            "difficulty": "bonus"
+        },
+        {
+            "question": "Explain the concept of 'Immutable State' in React and its importance in application performance.",
+            "options": [
+                "Immutable state allows React to quickly detect changes",
+                "It refers to state that cannot be changed",
+                "Immutable state is a type of database state management",
+                "It increases the complexity of the application"
+            ],
+            "answer": "Immutable state allows React to quickly detect changes",
+            "difficulty": "bonus"
+        },
+        {
+            "question": "How does the virtual DOM contribute to React's performance, and what is the reconciliation process?",
+            "options": [
+                "The virtual DOM eliminates the need for a real DOM",
+                "It directly manipulates the DOM, making updates faster",
+                "The virtual DOM compares new and old versions of the DOM to optimize updates",
+                "Reconciliation is the process of syncing props and state"
+            ],
+            "answer": "The virtual DOM compares new and old versions of the DOM to optimize updates",
+            "difficulty": "bonus"
+        }
+    ]
