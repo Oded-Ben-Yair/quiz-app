@@ -4,7 +4,7 @@ This is a **Trivia Quiz App** built using React for the frontend and Node.js wit
 
 ## Features
 
-- **Randomized Questions**: Each game presents 10 random questions of varying difficulty levels.
+- **Randomized Questions**: Each game presents 15 random questions, 5 each from easy, medium, and hard difficulty levels.
 - **Timed Quiz**: Users have a limited amount of time to answer each question.
 - **Score Submission**: At the end of the quiz, users can submit their scores to a leaderboard.
 - **Leaderboard**: The app displays a scoreboard with the top scores.
@@ -57,7 +57,7 @@ Run the following command to seed the database with quiz questions:
 node seedQuestions.js
 ```
 
-This will insert sample quiz questions into your MongoDB database.
+This will insert 15 quiz questions (5 for each difficulty level: easy, medium, hard) into your MongoDB database.
 
 ### 3. Setting Up the Frontend
 
@@ -98,8 +98,7 @@ The frontend will be running on `http://localhost:3000`.
 
 ## Folder Structure
 
-
-
+```
 quiz-app/
 │
 ├── backend/
@@ -130,5 +129,3 @@ Contributions are welcome! If you would like to contribute to the project, feel 
 - Ensure that your code adheres to the coding standards used throughout the project.
 - Write clear, concise commit messages.
 - Include comments and documentation where necessary.
-
-
